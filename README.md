@@ -42,26 +42,18 @@ It is still interesting to show how quickly a password can be brute-forced.
 
 ![Brute force time. Credit to Hive Systems](https://user-images.githubusercontent.com/53222142/203083902-36696cc8-f3bb-4b23-9a42-643856ac5125.png)
 
-### Happy World Password Day to all! :calendar:
+#### Remember to celebrate [World Password Day](https://nationaltoday.com/world-password-day/) on the first Thursday of May. :calendar:
 
-Happy [World Password Day](https://nationaltoday.com/world-password-day/)!
-
-The **first Thursday of May**, May 4, 2023.
-
-In the interest of celebration,
-I have decided to share my passwords to everybody! :balloon:
-
-<details>
-<summary>Here they are.</summary>
-
-![correcthorsebatterystaple. Credit to XKCD](https://imgs.xkcd.com/comics/password_strength.png)
-
-Not really.
-But [XKCD](https://xkcd.com/936/ "There is an XKCD comic for everything") is always fun.
-It is a good reminder to ensure:
+#### Keep your accounts safe. Ensure that:
 
 - :lock: Your passwords are unique across all services.
 - :lock: Your passwords aren't all "password".
 - :lock: You are using multi-factor authentication where possible.
 - :closed_lock_with_key: Avoid [publishing API credentials](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04B-3_Meli_paper.pdf), especially keys, to public repositories.
+
+<details><summary>correcthorsebatterystaple</summary>
+
+![correcthorsebatterystaple. Credit to XKCD](https://imgs.xkcd.com/comics/password_strength.png)
+There is an [XKCD for everything](https://xkcd.com/936/ "There is an XKCD comic for everything").
+
 </details>
