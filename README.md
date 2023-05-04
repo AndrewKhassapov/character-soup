@@ -54,6 +54,7 @@ It is still interesting to show how quickly a password can be brute-forced.
 <details><summary>correcthorsebatterystaple</summary>
 
 ![correcthorsebatterystaple. Credit to XKCD](https://imgs.xkcd.com/comics/password_strength.png)
+
 There is an [XKCD for everything](https://xkcd.com/936/ "There is an XKCD comic for everything").
 
 </details>
