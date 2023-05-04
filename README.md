@@ -49,15 +49,16 @@ Happy [World Password Day](https://nationaltoday.com/world-password-day/)!
 The **first Thursday of May**, May 4, 2023.
 
 In the interest of celebration,
-I have decided to
+I have decided to share my passwords to everybody! :balloon:
 
 <details>
-</summary>share my passwords to everybody!</summary>
+<summary>Here they are.</summary>
 
 ![correcthorsebatterystaple. Credit to XKCD](https://imgs.xkcd.com/comics/password_strength.png)
 
 Not really.
-But it is always a good reminder to ensure:
+But [XKCD](https://xkcd.com/936/ "There is an XKCD comic for everything") is always fun.
+It is a good reminder to ensure:
 
 - :lock: Your passwords are unique across all services.
 - :lock: Your passwords aren't all "password".
