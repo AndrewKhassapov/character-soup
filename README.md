@@ -63,5 +63,5 @@ It is a good reminder to ensure:
 - :lock: Your passwords are unique across all services.
 - :lock: Your passwords aren't all "password".
 - :lock: You are using multi-factor authentication where possible.
-
+- :closed_lock_with_key: Avoid [publishing API credentials](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04B-3_Meli_paper.pdf), especially keys, to public repositories.
 </details>
