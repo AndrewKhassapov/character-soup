@@ -24,6 +24,30 @@ const CHARACTERS:String = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQ
  */
 var text:Array<String> = [];
 
+
+/**
+ * Returns all combinations of CHARACTERS at the given length
+ * @param {int} length Length of output
+ * @returns {int} Count of combinations at length, {x | x = CHARACTERS.length ^ length}
+ */
+function combinations(length:number = 1):number {
+    return Math.pow(CHARACTERS.length, length);
+}
+
+
+/**
+ * Returns all possible combinations of CHARACTERS at lengths 1 to length
+ * @param {int} length Maximum length of output
+ * @returns {int} Combinations of CHARACTERS at lengths 1 to length
+ */
+function combinationsStacked(length:number = 1):number {
+    if (length > 1) {
+        return combinations(length) + combinationsStacked(length - 1);
+    }
+    return combinations();
+}
+
+
 /**
  * String equivalent of decimal value.
  * @param {number} num Integer to be converted to string.
@@ -40,7 +64,7 @@ function decimalToText(num:number):String {
     return str;
 }
 
-for (let i:number = 0; i < Math.pow(CHARACTERS.length, MAX_LENGTH); i++) {
+for (let i:number = 0; i <= combinationsStacked(MAX_LENGTH); i++) {
     text[i] = decimalToText(i);
 }
 

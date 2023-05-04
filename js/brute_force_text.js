@@ -21,7 +21,7 @@ function decimalToText(num) {
 /**
  * Returns all combinations of CHARACTERS at the given length
  * @param {int} length Length of output
- * @returns Count of combinations at length, {x | x = CHARACTERS.length ^ length}
+ * @returns {int} Count of combinations at length, {x | x = CHARACTERS.length ^ length}
  */
 function combinations(length = 1) {
     return Math.pow(CHARACTERS.length, length);
@@ -30,7 +30,7 @@ function combinations(length = 1) {
 /**
  * Returns all possible combinations of CHARACTERS at lengths 1 to length
  * @param {int} length Maximum length of output
- * @returns Combinations of CHARACTERS at lengths 1 to length
+ * @returns {int} Combinations of CHARACTERS at lengths 1 to length
  */
 function combinationsStacked(length = 1) {
     if (length > 1) {
@@ -42,13 +42,15 @@ function combinationsStacked(length = 1) {
 /**
  * Gets all combinations of CHARACTERS to, including, length
  * @param {int} length Maximum length of output
- * @example getStrings(3) // Prints array of all combinations of CHARACTERS 
+ * @returns {array} Array of all combinations of CHARACTERS at lengths 1 to length
+ * @example getStrings(3) Returns array of all combinations of CHARACTERS
+ * @see CHARACTERS
  */
 function getStrings(length = MAX_LENGTH) {
     let text = [];
     for (i = 0; i <= combinationsStacked(length); i++) {
         text[i] = decimalToText(i);
     }
-    console.log(text);
+    return text;
 }
-getStrings();
+console.log(getStrings());

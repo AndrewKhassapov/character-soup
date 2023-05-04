@@ -13,6 +13,16 @@ CHARACTERS = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ !#$
 text = []
 
 
+def combinations(length=1):
+    return pow(len(CHARACTERS), length)
+
+
+def combinationsStacked(length=1):
+    if (length > 1):
+        return combinations(length) + combinationsStacked(length - 1)
+    return combinations()
+
+
 def decimalToText(num):
     """Converts a decimal number to a string using the CHARACTERS list
 
@@ -21,6 +31,7 @@ def decimalToText(num):
     :returns: String representation of the decimal number
     :rtype: str
     """
+
     str = ""
     while (num != 0):
         str += CHARACTERS[(num - 1) % len(CHARACTERS)]
@@ -29,7 +40,7 @@ def decimalToText(num):
     return str
 
 
-for i in range(pow(len(CHARACTERS), MAX_LENGTH)):
+for i in range(combinationsStacked(MAX_LENGTH) + 1):
     text.insert(i, decimalToText(i))
 
 print(text)
