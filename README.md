@@ -8,7 +8,7 @@ A soup of characters. :tomato::corn::stew::cake:
 
 - [x] JavaScript
 - [x] TypeScript
-- [ ] Python
+- [x] Python
 - [ ] C#
 - [ ] Java
 - [ ] C++
