@@ -40,7 +40,13 @@ It is still interesting to show how quickly a password can be brute-forced.
 
 #### [Hive Systems](https://www.hivesystems.io/) have a great cybersecurity infographic for this system.
 
-![Brute force time. Credit to Hive Systems](https://user-images.githubusercontent.com/53222142/203083902-36696cc8-f3bb-4b23-9a42-643856ac5125.png)
+In 2022:<br/>
+<img src="https://user-images.githubusercontent.com/53222142/203083902-36696cc8-f3bb-4b23-9a42-643856ac5125.png" height="750" alt="Brute force time in 2022. Credit to Hive Systems">
+<br/>In 2023:<br/>
+<img src="https://github.com/AndrewKhassapov/character-soup/assets/53222142/88ae1b34-3c10-4945-84a4-526a3a1a974d" height="750" alt="Brute force time in 2023. Credit to Hive Systems">
+<br/>In 2023 using dedicated AI hardware: <br/>
+<img src="https://github.com/AndrewKhassapov/character-soup/assets/53222142/e10d397e-9ef4-4f0e-84ca-6625a4fe5acd" height="750" alt="Brute force time in 2023, with ChatGPT. Credit to Hive Systems">
+
 
 #### Remember to celebrate [World Password Day](https://nationaltoday.com/world-password-day/) on the first Thursday of May. :calendar:
 
